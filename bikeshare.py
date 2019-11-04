@@ -269,8 +269,8 @@ def display_data(df):
 
     # iterate from zero to the number of rows in steps of 5
     for i in range(0, row_length, 5):
-        
-        yes = input('\nDo you want to see 5 lines of raw data? Enter: \'yes\' OR \'no\'\n> ')
+        # change number 5 to character
+        yes = input('\nDo you want to see five lines of raw data? Enter: \'yes\' OR \'no\'\n> ')
         if yes.lower() != 'yes':
             break
         
