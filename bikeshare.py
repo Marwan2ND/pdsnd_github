@@ -267,7 +267,7 @@ def display_data(df):
     """Displays raw bikeshare data."""
     row_length = df.shape[0]
 
-    # iterate from 0 to the number of rows in steps of 5
+    # iterate from zero to the number of rows in steps of 5
     for i in range(0, row_length, 5):
         
         yes = input('\nDo you want to see 5 lines of raw data? Enter: \'yes\' OR \'no\'\n> ')
